@@ -1,0 +1,115 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* .banner1 {
+  background-size: cover;
+} */
+
+.f-banner {
+  height: auto;
+}
+
+.f-border {
+  position: absolute;
+  left: 0;
+  top: 314px;
+  /* margin-left: 10px; */
+  /* margin-right: 10px; */
+}
+
+.u-panel {
+  border-radius: 27px;
+  border: 1px solid #f3f2f7;
+  box-shadow: 0px 5px 5px 0px #bfbdc1;
+  position: relative;
+  top: -56vh;
+  width: 80%;
+  height: 72vh;
+  margin: 0 auto;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* .u-panel::-webkit-scrollbar-thumb {
+  width: 10px !important;
+  background-color: #bfbdc1 !important;
+} */
+
+.f-heading {
+  display: flex;
+  justify-content: center;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  background-color: #f3f2f7;
+  height: 16vh
+  ;
+}
+
+.f-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4em;
+}
+
+.f-body {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll !important;
+  scroll-behavior: smooth !important;
+  scrollbar-width: 5px !important;
+  scrollbar-track-color: #4a4450;
+  width: 100%;
+  height: 50vh;
+}
+
+/* .f-body ::-webkit-scrollbar-thumb {
+  display: initial !important;
+} */
+
+.f-body .a:hover,
+.f-body .ul:hover,
+.f-body .li:hover,
+.list-group-item:hover {
+  text-decoration: none !important;
+}
+
+/* .test {
+} */
+
+.profile-name {
+  display: flex;
+  flex-direction: row;
+  margin-top: -12px;
+
+}
+
+.myitem {
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-top: none;
+}
+
+.pro-pic {
+  width: 30px;
+  height: 2em;
+  border-radius: 100%;
+}
+
+.f-text {
+  font-size: 1.3em;
+  font-weight: 400;
+  margin-left: 16px;
+  color: black;
+}
+
+
